@@ -19,6 +19,6 @@ docker run -p 9092:8080 --name payment-service --network freelance-platform paym
 
 ### Test the service
 ```bash
-curl http://localhost:9092/payment/hello
+curl http://localhost:9092/hello
 ```
 
